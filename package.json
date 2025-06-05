@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "node index.js"
   },
   "author": "Nouman Hafeez",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^12.6.3",
     "qr-image": "^3.2.0"
